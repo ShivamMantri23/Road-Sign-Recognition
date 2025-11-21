@@ -1,4 +1,4 @@
-const API_URL = "https://your-api-url.onrender.com/predict"; // Replace with Render API URL
+const API_URL = "https://road-sign-recognition.onrender.com"; // Replace with Render API URL
 
 async function predict() {
     const input = document.getElementById("imageInput").files[0];
