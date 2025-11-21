@@ -5,7 +5,7 @@ import cv2
 
 app = Flask(__name__)
 
-model = load_model("model/GTSRB_HighAccuracy_CNN.h5")
+model = load_model("model/GTSRB_HighAccuracy.h5")
 
 @app.route("/predict", methods=["POST"])
 def predict():
