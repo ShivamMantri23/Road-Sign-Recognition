@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 
 app = Flask(__name__)
+CORS(app)
 
 model = load_model("model/GTSRB_HighAccuracy.h5")
 
